@@ -1,0 +1,314 @@
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'nexa';
+    color: #D0D1D4;
+}
+
+.upper {
+    text-transform: uppercase
+}
+
+/* start header of about  */
+
+#heading {
+    height: 50vh;
+}
+
+#heading h1  {
+    color:#fff;
+    text-align:center;
+    padding-top:150px;
+    font-size: 6vw;
+    margin: 0
+}
+
+/* start Msp Egypt of about */
+#msp-egypt {
+    background-color: rgba(0,0,8,82%);
+    width:100%
+}
+
+#msp-egypt h2 {
+    font-size: 40px;
+    color:#D0D1D4;
+    text-align: center;
+    padding-top:30px;
+    margin-bottom: 20px;
+}
+
+#msp-egypt p {
+    color: #8B8E8E;
+    line-height: 1.3;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#msp-egypt hr {
+    width:30%;
+    height:3px;
+    border:none;
+    background-color:#F5853C;
+    margin-bottom:20px;
+}
+
+/* start Msp azhar of about */
+#msp-azhar {
+    background-color: rgba(0,0,8,82%);
+}
+
+#msp-azhar h1 {
+    font-size: 40px;
+    color:#D0D1D4;
+    text-align: center;
+    padding-top:60px;
+    margin: 0
+}
+
+/* start mision */
+#msp-azhar .mision {
+    padding-top:45px;
+    text-align: center;
+}
+
+#msp-azhar .mision h2{
+    color:#E37739;
+    font-size: 40px
+}
+
+#msp-azhar .mision p {
+    color:#8B8E8E;
+    line-height:1.3;
+    font-size:25px;
+    text-align:justify
+}
+
+#msp-azhar .mision-icon {
+    width:30%;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#msp-azhar .target-image {
+    text-align: center;
+    position: relative;
+}
+
+#msp-azhar .target-image img.arrow {
+    position: absolute;
+    top: 1%;
+    left: -7.8%;
+    width: 60%;
+    transform: translate(-500%, -198%) scale(2);
+    transition: all 0.2s linear;
+    display: none;
+}
+
+#msp-azhar .target-image img.arrow.normal {
+    transform: translate(0, 0) scale(1);
+    transition: all 0.2s ease-out;
+}
+
+#msp-azhar .target-image img {
+    max-width: 100%;
+    height: auto; 
+}
+
+
+@media (min-width: 991px) {
+    #msp-azhar .target-image {
+        float: right;
+        width: 20%;
+    }
+
+    #msp-azhar .target-image img {
+        margin-top: 37%;
+    }
+}
+
+@media (max-width: 990px) {
+
+    #msp-azhar .target-image img {
+        width: 20%;
+    }
+
+    #msp-azhar .target-image img.arrow {
+        position: absolute;
+        top: -5%;
+        left: 36.2%;
+        width: 14%;
+    }
+}
+
+.clear {
+    clear:both
+}
+
+/* start vision */
+#msp-azhar .vision {
+    padding-top:60px;
+    padding-bottom:25px;
+    text-align: center;
+}
+#msp-azhar .vision h2{
+    color:#E37739;
+    font-size: 40px
+}
+#msp-azhar .vision p {
+    color:#8B8E8E;
+    line-height:1.3;
+    font-size:25px;
+    text-align:justify
+}
+#msp-azhar .vision-icon {
+    width:30%;
+    float: left;
+    padding-bottom:25px;
+    text-align: center;
+}
+#msp-azhar .vision-icon img {
+    width:300px;
+    height:300x;
+    margin-top:70px
+}
+
+
+
+/*  start Media Query */
+@media (min-width: 991px) {
+    #msp-azhar .vision {
+        float: left;
+        width: 70%;
+        text-align: left;
+    }
+
+    #msp-azhar .vision-icon {
+        text-align: left;
+    }
+
+    #msp-azhar .mision {
+        float: left;
+        width: 70%;
+        text-align: left;
+    }
+}
+
+
+@media (max-width:768px) {
+
+/* start Msp Egypt of about */
+#msp-egypt {
+    background-color: rgba(0,0,8,82%);
+    width:100%
+}
+
+#msp-egypt h2 {
+    font-size: 25px;
+    color:#D0D1D4;
+    text-align: center;
+    padding-top:15px
+}
+
+#msp-egypt p {
+    color:#8B8E8E;
+    line-height: 1.3;
+    font-size:15px;
+    padding-bottom:15px
+}
+
+#msp-egypt hr {
+    width:15%;
+    height:1px;
+    border:none;
+    background-color:#F5853C;
+    margin-bottom:0
+}
+
+/* start Msp azhar of about */
+#msp-azhar {
+    background-color: rgba(0,0,8,82%);
+    overflow: hidden;
+    
+}
+
+#msp-azhar h2 {
+    font-size: 25px;
+    color:#D0D1D4;
+    text-align: center;
+    padding-top:25px;
+    margin: 0
+}
+
+#msp-azhar .mision h2{
+    color:#E37739;
+    font-size: 25px;
+    text-align: center;
+    margin:0
+}
+
+#msp-azhar .mision p {
+    color:#8B8E8E;
+    line-height:1.3;
+    font-size:15px;
+    text-align:center;
+    width:100%
+}
+
+#msp-azhar .mision-icon {
+    display: block;
+    float: none;
+    overflow: hidden;
+    position: relative;
+    padding-top:10px;
+    width:100%
+}
+
+#msp-azhar .mision-icon img {
+    width:120px;
+    height:120px;
+    float: none;
+    margin:25px 290px;
+}
+
+#msp-azhar .mision-icon #arrow {
+    width:65px;
+    height:65px;
+    position: absolute;
+    top:5%;
+    left:-.5%
+    
+}
+
+.clear {
+    clear:both
+}
+
+#msp-azhar .vision h2{
+    color:#E37739;
+    font-size: 25px;
+    margin:0;
+    text-align: center
+}
+
+#msp-azhar .vision p {
+    color:#8B8E8E;
+    line-height:1.3;
+    font-size:15px;
+    text-align:center
+}
+
+#msp-azhar .vision-icon {
+    width:100%;
+    float:none;
+    
+}
+
+#msp-azhar .vision-icon img {
+    width:150px;
+    height:150x;
+}
+
+}

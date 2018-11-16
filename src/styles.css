@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'nexa';
+    src: url('assets/Fonts/nexabold.otf');
+}
+
+body {
+    background-image: url(assets/img/bg-03.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.validate {
+    padding: 10px 30px;
+    background-color: red;
+    border: 2px solid darkred;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
