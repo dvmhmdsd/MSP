@@ -320,3 +320,21 @@
 }
 
 /* End Footer */
+
+/* scroll button */
+#scroll {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: rgba(59, 89, 152, 0.3);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 1px 17px;
+    font-size: 40px;
+    transition: all 0.2s ease-in-out;
+}
+
+#scroll:hover {
+    background-color: #1da1f2;
+    color: rgba(255, 255, 255, 1);
+}

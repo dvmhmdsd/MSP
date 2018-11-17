@@ -28,6 +28,20 @@ export class AppComponent implements OnInit {
       });
 
       $('input, textarea').removeClass('wrong');
+      /* scroll to top button */
+      var scrollButton = $("#scroll");
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() >= 200) {
+      scrollButton.fadeIn();
+    } else {
+      scrollButton.fadeOut();
+    }
+  });
+
+  scrollButton.click(function() {
+    $("html, body").animate({ scrollTop: 0 })
+  });
 
       
     });
