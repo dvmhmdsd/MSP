@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '../../../node_modules/@angular/router';
 
 @Component({
   selector: 'app-notfound404',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Notfound404Component implements OnInit {
 
-  constructor() { }
+  constructor(private routing: Router) { }
 
   ngOnInit() {
+  }
+
+  goHome() {
+    this.routing.navigate(['/home']);
   }
 
 }

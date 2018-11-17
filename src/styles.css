@@ -17,10 +17,13 @@ img {
 }
 
 .validate {
-    padding: 10px 30px;
-    background-color: red;
-    border: 2px solid darkred;
-    border-radius: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
     font-size: 20px;
-    color: #fff;
+    color: #f00;
+    opacity: 0.8;
+}
+
+.wrong {
+    background-color: rgb(167, 80, 80) !important;
 }

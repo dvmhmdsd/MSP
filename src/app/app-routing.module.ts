@@ -1,3 +1,4 @@
+import { EventsComponent } from './events/events.component';
 import { Notfound404Component } from './notfound404/notfound404.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
@@ -14,6 +15,10 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'events',
+    component: EventsComponent
   },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   {path: '**', component: Notfound404Component},

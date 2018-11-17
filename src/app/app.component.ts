@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
     $(function() {
       $(window).on('scroll', function() {
 
-        if ($(window).scrollTop() > 150) {
+        if ($(window).scrollTop() > 80) {
           $('.navbar').addClass('navbar--scrolled');
           $('.navbar-brand img').attr('src', '../assets/img/logo2.png');
         } else {
@@ -26,6 +26,10 @@ export class AppComponent implements OnInit {
           $('.navbar-brand img').attr('src', '../assets/img/logo.png');
         }
       });
+
+      $('input, textarea').removeClass('wrong');
+
+      
     });
   }
 

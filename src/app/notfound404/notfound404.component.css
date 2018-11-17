@@ -1,0 +1,30 @@
+
+.container {
+    color: #fff;
+}
+
+p {
+    font-size: 4vw;
+    margin-top: 17%;
+}
+
+p span {
+    font-size: 8vw;
+    font-weight: bold;
+    display: block;
+}
+
+button {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 37px;
+    background-color: rgba(6, 115, 140, 0.8);
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+button:hover {
+    background-color: rgba(6, 115, 140, 1);
+}
